@@ -1,0 +1,149 @@
+:root {
+    --image-url: url("/assets/header-image-coding-bootcamp-novi.png");
+    --dark-grey-color: #383838;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 250px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    height: 100vh;
+}
+
+.top-nav-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-links-container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+
+.nav-links-container li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-links-container li a {
+    display: flex;
+    gap: 1rem;
+    flex-basis: auto;
+    flex-grow: 1;
+    font-size: .8rem;
+}
+
+
+.bottom-nav-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex-basis: auto;
+    flex-grow: 4;
+    flex-shrink: 1;
+    overflow-y: scroll;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 350px 0 0;
+    gap: 1rem;
+    background-color: #e79191;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), var(--image-url);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+header p, h1 {
+    width: 60%;
+    color: #fff;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    gap: 2rem;
+    padding: 2rem 2rem;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 260px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    gap: 1rem;
+}
+
+article img {
+    width: 100%;
+}
+
+.article-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.article-price-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.article-price-row img {
+    width: 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-grey-color);
+    color: #fff;
+    padding: 1rem;
+}
+
+footer p {
+    font-size: .8rem;
+}

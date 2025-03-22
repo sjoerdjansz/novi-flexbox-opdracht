@@ -1,0 +1,143 @@
+/*
+Navbar GLOBAL
+*/
+
+
+.nav-container {
+    height: 60px;
+}
+
+li {
+    list-style: none;
+}
+
+/*
+Navbar one
+*/
+
+.navbar-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-one ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*
+Navbar one
+*/
+
+.navbar-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-two ul {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar-two ul li {
+    list-style: none;
+}
+
+/*
+Navbar one
+*/
+
+
+.navbar-three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-three .logo-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    flex-basis: 250px;
+}
+
+.navbar-three ul {
+    display: flex;
+    justify-content: flex-end;;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar-three ul li {
+    list-style: none;
+}
+
+/*Navbar four*/
+
+.navbar-four {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-four > :nth-child(1) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    flex-basis: 250px;
+    flex-grow: 0;
+}
+
+.navbar-four > :nth-child(2) {
+    display: flex;
+    flex-grow: 2;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-four > :nth-child(3) {
+    display: flex;
+    flex-grow: 1;
+    gap: 2rem;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+/*Navbar four*/
+
+.navbar-five {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar-five > :nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.navbar-five > :nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-five > :nth-child(3) {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+}
