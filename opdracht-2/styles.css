@@ -65,8 +65,8 @@ nav {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    flex-basis: auto;
-    flex-grow: 4;
+    flex-basis: 0;
+    flex-grow: 10;
     flex-shrink: 1;
     overflow-y: scroll;
 
